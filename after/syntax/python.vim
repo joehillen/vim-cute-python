@@ -7,6 +7,7 @@ endif
 syntax clear pythonOperator
 
 syntax match pythonOperator "\<is\>"
+syntax match pythonOperator "\<not\>"
 
 syntax match pyNiceOperator "\<in\>" conceal cchar=∈
 syntax match pyNiceOperator "\<or\>" conceal cchar=∨
